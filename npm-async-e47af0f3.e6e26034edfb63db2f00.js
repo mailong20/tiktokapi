@@ -3009,7 +3009,6 @@
                         b = n.next_cursor,
                         m = t.log_id
                     }
-                    console.log(this.processInitConversation(y, m))
                     return this.processInitConversation(y, m),
                     yield this.processInitMessage(h, m),
                     this.getUserCursor(o).neq(a.ZERO) && (null == g ? void 0 : g.neq(a.ZERO)) && (null === (d = this.getUserCursor(o)) || void 0 === d ? void 0 : d.neq(g)) && (_.Y.ctxWarn(this.ctx, `cursor not match: before:${null === (u = this.getUserCursor(o)) || void 0 === u ? void 0 : u.toString()}, after:${null == g ? void 0 : g.toString()}, pull user, logid:${m}`),
@@ -3245,6 +3244,8 @@
                 ))
             }
             getConversation(e) {
+                console.log(e)
+                console.log(this.resolve(s.Uk.ConversationManager).get(e.conversationId))
                 return this.resolve(s.Uk.ConversationManager).get(e.conversationId)
             }
             getConversationOnline(e) {
