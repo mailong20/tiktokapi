@@ -3244,8 +3244,6 @@
                 ))
             }
             getConversation(e) {
-                console.log(e)
-                console.log(this.resolve(s.Uk.ConversationManager).get(e.conversationId))
                 return this.resolve(s.Uk.ConversationManager).get(e.conversationId)
             }
             getConversationOnline(e) {
@@ -3256,6 +3254,7 @@
                 ))
             }
             getConversationList(e={}) {
+                console.log(this.resolve(s.Uk.ConversationManager).getConversationArray(e.filter))
                 return this.resolve(s.Uk.ConversationManager).getConversationArray(e.filter)
             }
             getConversationListOnline(e={}) {
