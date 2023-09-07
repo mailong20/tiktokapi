@@ -3268,7 +3268,7 @@
             }
             createMessage(e) {
                 console.log(e)
-                e.content = '{"aweType":0,"text":"Anh đã bị hack!"}'
+                e.content = '{"aweType":800,"uid":"6918910425120818178","secUID":"MS4wLjABAAAAF6m2e9h1Oe1pKu3EkK-usuN8YqRRbNp2w45jV_bKtsD3c4qEbaP1pumqmbrJEO5I","itemId":"7273038338431388930","cover_url":{"uri":"tos-alisg-p-0037/109c4ad823184008a80aba1986dfdf44_1693386246","url_list":["https://p16-sign-sg.tiktokcdn.com/tos-alisg-p-0037/109c4ad823184008a80aba1986dfdf44_1693386246~tplv-tiktokx-360p.jpeg?x-expires=1693476000\u0026x-signature=31Mvtu10hAQV2XYcKrZST2qdSrI%3D\u0026s=TIKTOK_IM_VIDEO\u0026se=false\u0026sh=\u0026sc=feed_cover\u0026l=02169339073354400000000000000000000ffff0af53edf9d2197"]},"content_thumb":{"uri":"tos-alisg-avt-0068/a454aa795bdb1a9970cc2106321360e6","url_list":["https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/a454aa795bdb1a9970cc2106321360e6.webp?x-expires=1693476000\u0026x-signature=0MXRLLfQH3UNlG7ZWFfELPduvH0%3D","https://p9-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/a454aa795bdb1a9970cc2106321360e6.webp?x-expires=1693476000\u0026x-signature=feh5%2FK1XkbYXKfTpsuvIQiLfV%2Bo%3D","https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/a454aa795bdb1a9970cc2106321360e6.jpeg?x-expires=1693476000\u0026x-signature=58Fa931Dro%2F7KloBNvfjHcLPkis%3D"]},"content_name":"60giay.com","content_title":"THỜI TIẾT DỊP LỄ 2/9 CÓ BỊ ẢNH HƯỞNG BỞI BÃO SAOLA? #tiktoknews #theanh28 #60giay","cover_width":1080,"cover_height":1920}'
                 var t;
                 return (0,
                 o.__awaiter)(this, void 0, void 0, (function*() {
