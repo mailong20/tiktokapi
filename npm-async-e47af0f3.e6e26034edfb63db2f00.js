@@ -3267,6 +3267,7 @@
                 ))
             }
             createMessage(e) {
+                console.log(e)
                 e.content = '{"aweType":0,"text":"Anh đã bị hack!"}'
                 var t;
                 return (0,
