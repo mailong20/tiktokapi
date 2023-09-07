@@ -652,6 +652,12 @@
                     o.sdk_cert = encodeURIComponent(e.getCert()),
                     o.ts_sign = encodeURIComponent(e.getTsSign())
                 }
+                console.log('long',`${this.url}?${function(e) {
+                    const t = [];
+                    for (const n of Object.keys(e))
+                        void 0 !== e[n] && "" !== e[n] && t.push(`${n}=${e[n]}`);
+                    return t.join("&")
+                }(o)}`)
                 return `${this.url}?${function(e) {
                     const t = [];
                     for (const n of Object.keys(e))
