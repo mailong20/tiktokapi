@@ -907,7 +907,6 @@
                 ))
             }
             CreateConversationV2(e) {
-                console.log(e.avatarUrl)
                 return (0,
                 o.__awaiter)(this, void 0, void 0, (function*() {
                     const t = c.m.RequestBody.create({
@@ -3268,6 +3267,7 @@
                 ))
             }
             createMessage(e) {
+                console.log(e)
                 var t;
                 return (0,
                 o.__awaiter)(this, void 0, void 0, (function*() {
