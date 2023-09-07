@@ -3034,6 +3034,8 @@
                 ))
             }
             processInitConversation(e, t) {
+                console.log(e)
+                console.log(t)
                 e && e.map((e=>G.r.fromServerConversation(this.ctx, e, t))).forEach((e=>this.resolve(s.Uk.ConversationManager).upsert(e)))
             }
             getMessagesByUser(e={}) {
